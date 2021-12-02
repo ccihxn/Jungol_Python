@@ -1,0 +1,5 @@
+n = list(map(int, input().split()))
+if n[0] > n[1] and n[0] > n[2] : print(int(n[0] > n[1]), end=' ')
+else : print(0, end=' ')
+if n[0] == n[1] and n[0] == n[2] : print(int(n[0] == n[1]))
+else : print(0)
