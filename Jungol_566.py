@@ -1,0 +1,9 @@
+arr = [0] * 100
+arr[0] = 100
+arr[1] = int(input())
+i = 2
+print(arr[0], arr[1], end=' ')
+while arr[i - 1] >= 0:
+    arr[i] = arr[i - 2] - arr[i - 1]
+    print(arr[i], end=' ')
+    i += 1
